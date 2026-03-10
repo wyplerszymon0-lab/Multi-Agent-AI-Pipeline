@@ -5,7 +5,7 @@ User Input (topic)
  Orchestrator
       ↓
 ┌──────────────────────────────────────────────┐
-│  🔍 Researcher  →  📊 Analyst  →  ✍️  Writer  │
+│   Researcher  →   Analyst  →    Writer  │
 └──────────────────────────────────────────────┘
       ↓
  Final Report (Markdown)
@@ -20,26 +20,26 @@ Demo Output
 Topic: The future of AI agents in software development
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-[12:00:01] 🔍  [RESEARCHER] Researching topic...
+[12:00:01]   [RESEARCHER] Researching topic...
 ────────────────────────────────────────────────────────────
   ## Key Findings
   - AI agents are transforming how developers write code
   ... (24 more lines)
 ────────────────────────────────────────────────────────────
-[12:00:08] ✅ [RESEARCHER] Done — 843 tokens · 7120ms
+[12:00:08]  [RESEARCHER] Done — 843 tokens · 7120ms
 
-[12:00:08] 📊  [ANALYST] Analyzing research findings...
+[12:00:08]   [ANALYST] Analyzing research findings...
 ────────────────────────────────────────────────────────────
   ## Critical Insights
   - 73% of developers already use AI tools daily
   ... (18 more lines)
 ────────────────────────────────────────────────────────────
-[12:00:14] ✅ [ANALYST] Done — 921 tokens · 6340ms
+[12:00:14]  [ANALYST] Done — 921 tokens · 6340ms
 
-[12:00:14] ✍️   [WRITER] Writing final report...
-[12:00:22] ✅ [WRITER] Done — 1083 tokens · 8210ms
+[12:00:14]    [WRITER] Writing final report...
+[12:00:22]  [WRITER] Done — 1083 tokens · 8210ms
 
-✅ PIPELINE COMPLETE
+ PIPELINE COMPLETE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Total tokens used: 2847
 Total time:        21670ms
