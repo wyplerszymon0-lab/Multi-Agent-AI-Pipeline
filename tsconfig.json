@@ -14,31 +14,3 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
-```
-
----
-
-**`.gitignore`**
-```
-node_modules/
-dist/
-.env
-reports/
-```
-
----
-
-Structure folder:
-```
-multi-agent-pipeline/
-├── src/
-│   ├── index.ts
-│   ├── orchestrator.ts
-│   ├── agent.ts
-│   ├── agents.ts
-│   ├── logger.js
-│   └── types.ts
-├── package.json
-├── tsconfig.json
-├── .gitignore
-└── .env
